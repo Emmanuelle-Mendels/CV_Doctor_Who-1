@@ -1,10 +1,9 @@
+/*<img src="img/footer_alinea.png" alt="Alinea"> */
+
 footer {
     background-color: var(--color-blue-darker_opacity);
     margin-top: auto;
     color:var(--color-light);
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
     border: 1px solid #E1AB49;
     border-top: none;
     font-size: 12px;
@@ -13,7 +12,19 @@ footer {
     font-family:var(--font-text);
 }
 
-footer h5 {
+.footer {
+    background-color: var(--color-blue-darker_opacity);
+    margin-top: auto;
+    color:var(--color-light);
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border-top: none;
+    font-size: 12px;
+    font-family:var(--font-text);
+}
+
+.footer h5 {
 font-size: 14px;
 }
 /*Top Footer*/
@@ -90,11 +101,23 @@ font-size: 14px;
     color:var(--color-light);
 }
 
+.alinea {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    margin-bottom: 0;
+}
 
+.alinea img{
+    margin-top: auto;
+    width: 20vw;
+    height: 10vh;   
+}
 
 @media (max-width: 961px) {
 
-    footer {
+    .footer {
         display: flex;
         flex-direction: column;
         align-items: center;
